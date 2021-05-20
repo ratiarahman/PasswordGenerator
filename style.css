@@ -1,0 +1,50 @@
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #474645;
+	color: #fff;
+}
+
+section h1{
+	font-size: 40px;
+}
+
+section h1 span{
+	color: #F8E630;
+}
+
+input{
+	width: 100%;
+	padding: 10px;
+	background: transparent;
+	outline: none;
+	border-radius: 5px;
+	color: lightgrey;
+}
+input::placeholder{
+	color: grey;
+}
+
+#btn{
+	background-color: #333;
+	padding: 10px 15px;
+	margin-top: 10px;
+	cursor: pointer;
+	width: 20%;
+	text-align: center;
+	border-radius: 5px;
+	color: lightgrey;
+}
+
+#clipboard{
+	display: flex;
+	flex-direction: row;
+	grid-gap:10px;
+}
+
+#clipboard i{
+	color: #F8E630;
+	cursor: pointer;
+}
