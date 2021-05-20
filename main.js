@@ -1,6 +1,6 @@
 const pass = document.getElementById('password');
 const btn = document.getElementById('btn');
-const clipboard = document.getElementById('clipboard');
+const clipboard = document.getElementById('clip');
 
 clipboard.addEventListener("click", () => {
 	const textarea = document.createElement("textarea");
